@@ -24,7 +24,7 @@ const App: React.FC = (props) => {
 
   return (
     <div className={topLevelClasses} data-testid="app">
-      <Logo choice={logoChoice} />
+ 
       <Progress
         className={orientation || Orientation.Left}
         options={{
