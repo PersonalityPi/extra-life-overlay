@@ -14,7 +14,7 @@ const App: React.FC = (props) => {
   const orientation = getQueryStringValue("orientation");
   const debuggingMode = checkQueryStringBoolean("debugging");
   const showTeamName = checkQueryStringBoolean("showTeamName");
-  const showGoal = checkQueryStringBoolean("showGoal" + "$5000");
+  const showGoal = checkQueryStringBoolean("showGoal");
   const logoChoice = getQueryStringEnumValue<ILogoChoice>("logo");
   const topLevelClasses = prepareClassString(
     "app",
