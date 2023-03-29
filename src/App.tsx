@@ -32,6 +32,7 @@ const App: React.FC = (props) => {
           showGoal,
         }}
       />
+      / $5000
     </div>
   );
 };
